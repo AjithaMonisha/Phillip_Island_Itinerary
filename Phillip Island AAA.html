@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phillip Island Itinerary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f5e9;
+            color: #2e7d32;
+            line-height: 1.5;
+        }
+
+        header {
+            background-color: #4caf50;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .day {
+            background-color: #c8e6c9;
+            padding: 20px;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .day:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .day::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(45deg, #4caf50, #c8e6c9);
+            opacity: 0.5;
+            z-index: -1;
+        }
+
+        .day h2 {
+            color: #1b5e20;
+            border-bottom: 2px solid #1b5e20;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .day p {
+            color: #37474f;
+        }
+
+        .image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .image:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #4caf50;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Phillip Island Itinerary</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="day">
+            <h2>Day 1: Arrival and Sunset</h2>
+            <img class="image" src="sunset.jpg" alt="Sunset at Phillip Island">
+            <p>After reaching Phillip Island, check into your accommodation and head to the beach to witness a breathtaking sunset. Enjoy the tranquil ambiance as the vibrant hues of the sky reflect on the calm waters, setting the perfect tone for your island adventure.</p>
+        </div>
+
+        <div class="day">
+            <h2>Day 2: Wildlife and Nature Exploration</h2>
+            <img class="image" src="wildlife.jpg" alt="Exploring Wildlife at Phillip Island">
+            <p>Start your day with a visit to the Phillip Island Wildlife Park, where you can get up close and personal with native Australian animals. Later, explore the island's stunning natural landscapes, from rugged cliffs to serene forests, capturing mesmerizing views along the way.</p>
+        </div>
+
+        <div class="day">
+            <h2>Day 3: Coastal Activities and Penguin Parade</h2>
+            <img class="image" src="penguin_parade.jpg" alt="Penguin Parade at Phillip Island">
+            <p>Today, engage in thrilling coastal activities such as surfing and kayaking. As evening approaches, don't miss the world-famous Penguin Parade. Witness hundreds of little penguins waddling ashore under the starlit sky, creating an unforgettable experience.</p>
+        </div>
+
+        <div class="day">
+            <h2>Day 4: Cultural Exploration and Local Cuisine</h2>
+            <img class="image" src="local_cuisine.jpg" alt="Local Cuisine at Phillip Island">
+            <p>Dive into the rich culture and history of Phillip Island by visiting museums and art galleries. For lunch, indulge in delicious local cuisine, savoring fresh seafood and other island specialties. In the evening, relax at a seaside restaurant, soaking in the tranquil ambiance.</p>
+        </div>
+
+        <div class="day">
+            <h2>Day 5: Farewell and Departure</h2>
+            <img class="image" src="farewell.jpg" alt="Farewell at Phillip Island">
+            <p>As your memorable trip to Phillip Island comes to an end, pack your bags with cherished memories and souvenirs. Before departing, take a final stroll along the beach, soaking in the scenic beauty one last time. Bid farewell to this enchanting island, promising to return soon.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Phillip Island Itinerary. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
