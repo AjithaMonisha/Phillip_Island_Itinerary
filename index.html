@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phillip Island Itinerary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f5e9;
+            color: #2e7d32;
+            line-height: 1.5;
+        }
+
+        header {
+            background-color: #4caf50;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .day {
+            background-color: #c8e6c9;
+            padding: 20px;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .day:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .day::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(45deg, #4caf50, #c8e6c9);
+            opacity: 0.5;
+            z-index: -1;
+        }
+
+        .day h2 {
+            color: #1b5e20;
+            border-bottom: 2px solid #1b5e20;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .day p {
+            color: #37474f;
+        }
+
+        .image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .image:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #4caf50;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Phillip Island Itinerary</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="day">
+            <h2>Day 1: Welcome to Phillip Island!</h2>
+            <img class="image" src="Images/chocolate_factory.jpeg" alt="Chocolate Factory">
+            <p>After your arrival, kickstart your Phillip Island adventure with a visit to the chocolate factory. Treat yourself to some delicious chocolates and maybe even pick up some souvenirs for loved ones back home.Once you've satisfied your sweet tooth, head over to your Airbnb accommodation. Unpack, relax, and get settled into your home away from home.</p>
+        </div>
+
+        <div class="day">
+            <h2>Day 2: Wildlife & Nature Exploration</h2>
+            <img class="image" src="Images/Wildlife_Park.jpeg" alt="Exploring Wildlife at Phillip Island">
+            <p>Rise and shine! Today is all about nature and outdoor fun. Start your day with an unforgettable seal watching experience. Marvel at these majestic creatures in their natural habitat.
+             Round off your day with a visit to the wildlife park. Get up close and personal with kangaroos, wallabies, and other iconic Australian wildlife. Don't forget your camera!         
+            </p>
+        </div>
+
+        <div class="day">
+            <h2>Day 3: Scenic Views & Penguin Parade</h2>
+            <img class="image" src="Images/Penguin_Parade.jpeg" alt="Penguin Parade at Phillip Island">
+            <p>Explore the stunning coastal scenery at The Nobbies. Take a leisurely stroll along the boardwalks and enjoy panoramic views of the rugged coastline and surrounding islands.
+             As evening approaches, don't miss the world-famous Penguin Parade. Witness hundreds of little penguins waddling ashore under the starlit sky, creating an unforgettable experience.</p>
+        </div>
+
+        <div class="day">
+            <h2>Day 4: Go-Karting & History</h2>
+            <img class="image" src="Images/Vietnamese_War_Museum.jpeg" alt="Vietnamese War Museum at Phillip Island">
+            <p>Feel the need for speed? Spend your morning go-karting! Race against family and friends on the track and unleash your inner speed demon. Dive into history at the Vietnamese Veteran's Museum in the afternoon. Gain insights into the experiences of Vietnamese veterans and learn about the impact of the Vietnam War. It's a poignant reminder of the sacrifices made by those who served.</p>
+        </div>
+
+        <div class="day">
+            <h2>Day 5: Amaze'N Things & Koala Cuddles</h2>
+            <img class="image" src="Images/Amaze'N_Things.jpg" alt="Amaze'N Things at Phillip Island">
+            <p>Head to Amaze N' Things for a day of family-friendly fun. Navigate through mind-bending mazes, explore interactive exhibitions, and your adventure wouldn't be complete without a visit to Maru Koala and Animal Park. Get up close to cuddly koalas, hand-feed kangaroos, and meet a variety of other Australian wildlife. As your memorable trip to Phillip Island comes to an end, pack your bags with cherished memories and souvenirs. Bid farewell to this enchanting island, promising to return soon.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p> Thank you for visiting my page! :) </p>
+    </footer>
+
+</body>
+
+</html>
