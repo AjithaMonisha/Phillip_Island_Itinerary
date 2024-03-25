@@ -1,4 +1,4 @@
-# PhillipIslandItinerary
+# Phillip_Island_Itinerary
 This repository contains an HTML webpage showcasing a five-day itinerary for Phillip Island, a popular tourist destination in Australia. The webpage is designed to provide visitors with a detailed plan for exploring the island's attractions and activities.
 
 Features:
